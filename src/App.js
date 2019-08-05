@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CountryContainer from "./container/CountryContainer";
+
+
 
 function App() {
   return (
     <div className="App">
+      <CountryContainer />
     </div>
   );
 }

@@ -1,0 +1,135 @@
+
+.mainDiv {
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: none;
+}
+
+img {
+    width: 200px;
+    height: 145px;
+}
+
+p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+div {
+    height: 145px;
+    width: 200px;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+
+}
+
+.app-main {
+    text-align: center;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    border: none;
+}
+
+.app-main p {
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.deleteBtn {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    text-decoration: none;
+    border: none;
+}
+
+.deleteBtn:hover {
+    transform: scale(1.2);
+    
+}
+
+.App {
+    border: none;
+}
+
+.modalWindow {
+    display: flex;
+    /* width: 1835px; */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 100;
+    border: none;
+    background: black;
+    opacity: .95;
+}
+
+.modalWindow p {
+    color: aliceblue;
+}
+
+.mainModal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.closeBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    background: orange;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.modalBtn {
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 35px;
+}
+
+.modalBtn:hover {
+    transform: scale(1.2);
+}
+
+.btns {
+    position: relative;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.sortInp {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    width: 150px;
+} 
+
+.sort {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    border: none;
+}
